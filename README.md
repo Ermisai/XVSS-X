@@ -5,7 +5,7 @@
 [![PyTorch 2.1+](https://img.shields.io/badge/PyTorch-2.1%2B-orange.svg)](https://pytorch.org/)
 [![Paper](https://img.shields.io/badge/Paper-Accepted-green.svg)](#citation)
 
-This repository contains the official, reproducible pipeline and evaluation suite for **XVSS-X** (CVSS-X), a massive synthetic speech-to-speech translation (S2ST) corpus that complements and extends the original CVSS dataset by reversing the translation direction (**English $\rightarrow$ 28 target languages**).
+This repository contains the official, reproducible pipeline and evaluation suite for **XVSS-X** (CVSS-X), a massive synthetic speech-to-speech translation (S2ST) corpus that complements and extends the original CVSS dataset by reversing the translation direction (**English → 28 target languages**).
 
 ---
 
@@ -35,8 +35,8 @@ This repository contains the official, reproducible pipeline and evaluation suit
 While the pioneering CVSS corpus enables translation from 21 source languages exclusively into English (many-to-one), **XVSS-X** provides one-to-many translation from English into **28 typologically diverse target languages** across 12 language families.
 
 Combined with CVSS, XVSS-X enables:
-1. **Bidirectional speech-to-speech translation** (English $\leftrightarrow$ 28 languages).
-2. **Multilingual translation** between arbitrary language pairs using English as a pivot ($X \rightarrow \text{EN} \rightarrow Y$).
+1. **Bidirectional speech-to-speech translation** (English ↔ 28 languages).
+2. **Multilingual translation** between arbitrary language pairs using English as a pivot (X → EN → Y).
 3. Direct evaluation of cross-lingual voice preservation in speech-to-speech tasks.
 
 XVSS-X is provided in two complementary variants:
@@ -53,11 +53,12 @@ XVSS-X is provided in two complementary variants:
 | **Target Languages** | 28 |
 | **Language Families** | 12 (7 macro-families) |
 | **Nominal Samples per Language** | 240,192 |
-| **Data Splits (per lang)** | **Train:** 222,349 \| **Dev:** 10,000 \| **Test:** 7,843 |
+| **Data Splits (per lang)** | **Train:** 222,349 • **Dev:** 10,000 • **Test:** 7,843 |
 | **Total Parallel Speech Pairs** | 6,725,176 (Canonical) + 6,724,326 (Timbre) = **13,449,502 audio files** |
-| **XVSS-X-C Duration** | $\sim$6,730 hours (avg. 3.6s / utterance) |
-| **XVSS-X-T Duration** | $\sim$9,340 hours (avg. 5.0s / utterance) |
-| **Total Audio Duration** | **$\sim$16,070 hours** (8$\times$ larger than CVSS) |
+| **XVSS-X-C Duration** | ~6,730 hours (avg. 3.6s / utterance) |
+| **XVSS-X-T Duration** | ~9,340 hours (avg. 5.0s / utterance) |
+| **Total Audio Duration** | **~16,070 hours** (8x larger than CVSS) |
+
 
 ---
 
@@ -122,13 +123,14 @@ Evaluation performed on a stratified random sample of **200 utterances per langu
 | **Romance** (6) | 5.8 | 8.2 | 90.3 | 88.0 | 3.54 | 3.27 |
 | **Germanic** (5) | 9.5 | 12.2 | 85.3 | 81.1 | 3.62 | 3.27 |
 | **Slavic** (4) | 7.0 | 7.7 | 86.9 | 85.9 | 3.48 | 3.17 |
-| **CJK** (3)$^*$ | 5.0 | 10.2 | 75.2 | 67.9 | 3.56 | 3.20 |
+| **CJK** (3)* | 5.0 | 10.2 | 75.2 | 67.9 | 3.56 | 3.20 |
 | **Uralic** (2) | 10.3 | 14.3 | 84.0 | 78.3 | 3.54 | 3.21 |
 | **Indo-Iranian** (2) | 22.5 | 23.0 | 63.7 | 60.0 | 3.61 | 3.20 |
 | **Other** (6) | 24.8 | 24.8 | 65.0 | 64.9 | 3.53 | 3.14 |
 | **Average** | **12.1** | **14.1** | **82.4** | **79.4** | **3.55** | **3.21** |
 
-$^*$*For unsegmented CJK languages (ZH, JA, KO), Character Error Rate (CER) and character-level BLEU are reported.*
+*\*For unsegmented CJK languages (ZH, JA, KO), Character Error Rate (CER) and character-level BLEU are reported.*
+
 
 ### Overall Comparison with CVSS (Re-evaluated with Same Pipeline)
 
