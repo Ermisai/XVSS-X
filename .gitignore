@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data, audio, and large datasets
+data/
+output/
+downloads/
+*.wav
+*.mp3
+*.flac
+*.tar.gz
+*.tar
+*.tsv
+*.csv
+!config/*.tsv
+!config/*.csv
+
+# Models & HuggingFace / PyTorch caches
+.cache/
+checkpoints/
+*.pt
+*.bin
+*.safetensors
+
+# Logs & monitoring
+logs/
+*.log
+slurm-*.out
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE & OS
+.DS_Store
+.idea/
+.vscode/
+

@@ -1,0 +1,35 @@
+# Core PyTorch
+torch>=2.1.0
+torchaudio>=2.1.0
+
+# HuggingFace & Machine Translation
+transformers>=4.40.0
+accelerate>=0.28.0
+datasets>=2.18.0
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+
+# Audio Processing & I/O
+soundfile>=0.12.1
+librosa>=0.10.1
+pydub>=0.25.1
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Evaluation: ASR & Metrics
+openai-whisper>=20231117
+sacrebleu>=2.3.1
+speechbrain>=0.5.16
+filelock>=3.12.0
+
+# CJK & Multilingual Tokenization for Evaluation
+jieba>=0.42.1
+pythainlp>=4.0.0
+
+# Data Management & Utilities
+pandas>=2.0.0
+pyyaml>=6.0.1
+tqdm>=4.66.0
+click>=8.1.0
+requests>=2.31.0
+

@@ -1,0 +1,30 @@
+Creative Commons Attribution-NonCommercial 4.0 International Public License
+
+By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-NonCommercial 4.0 International Public License ("Public License"). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.
+
+Dataset Licensing & Heritage Notice:
+- The source English audio and transcripts originate from Mozilla Common Voice (released under CC0 1.0 Universal Public Domain Dedication).
+- Synthetic translations are generated using Meta's NLLB-200 (released under CC-BY-NC 4.0).
+- Consequently, the synthesized translations and derived parallel speech-to-speech corpus (XVSS-X) are distributed under the Creative Commons Attribution-NonCommercial 4.0 International (CC-BY-NC 4.0) license.
+- The pipeline, utilities, and evaluation codebase are distributed under the MIT License.
+
+Section 1 -- Definitions.
+
+a. Adapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor.
+b. Commercial means primarily intended for or directed towards commercial advantage or monetary compensation.
+c. Licensor means the authors of CVSS-X (Lucas Rafael Stefanel Gris, Alef Iury Siqueira Ferreira, F S de Oliveira, Augusto Seben da Rosa, Alexandre Costa Ferro Filho, Arlindo Rodrigues Galvão Filho, Anderson Da Silva Soares).
+d. NonCommercial means not primarily intended for or directed towards commercial advantage or monetary compensation.
+e. Share means to provide material to the public by any means or process that requires permission under the Licensed Rights.
+f. You means the individual or entity exercising the Licensed Rights under this Public License.
+
+Section 2 -- Scope.
+
+a. License grant.
+1. Subject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:
+A. reproduce and Share the Licensed Material, in whole or in part, for NonCommercial purposes only; and
+B. produce, reproduce, and Share Adapted Material for NonCommercial purposes only.
+
+Section 3 -- Attribution.
+
+If You Share the Licensed Material, You must retain identification of the creators, cite the CVSS-X publication, and provide a link to this license.
+

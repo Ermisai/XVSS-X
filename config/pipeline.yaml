@@ -1,0 +1,46 @@
+# ==============================================================================
+# XVSS-X Pipeline & Evaluation Configuration
+# ==============================================================================
+
+# Data Preparation Parameters
+data_prep:
+  common_voice_en_dataset: "fsicoli/common_voice_17_0"
+  random_seed: 42
+  target_splits:
+    train: 222349
+    dev: 10000
+    test: 7843
+  output_dir: "data/manifests"
+
+# NLLB Translation Parameters
+translation:
+  model_name: "facebook/nllb-200-distilled-600M"
+  src_lang: "eng_Latn"
+  batch_size: 64
+  num_beams: 4
+  max_length: 256
+  checkpoint_interval: 2000
+  output_dir: "data/translated"
+
+# OmniVoice TTS Synthesis Parameters
+synthesis:
+  model_name: "k2-fsa/OmniVoice"
+  sampling_rate: 24000
+  num_step: 48
+  guidance_scale: 2.5
+  batch_size: 16
+  checkpoint_interval: 500
+  canonical_voices:
+    male: "assets/pt-male.wav"
+    female: "assets/pt-female.wav"
+  output_dir: "data/synthesized"
+
+# Quality Evaluation Parameters
+evaluation:
+  sample_size_per_lang: 200
+  random_seed: 42
+  asr_model: "large-v3"
+  utmos_model: "tarepan/SpeechMOS:v1.2.0"
+  speaker_model: "speechbrain/spkrec-ecapa-voxceleb"
+  output_dir: "evaluation/results"
+

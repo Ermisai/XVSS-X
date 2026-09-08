@@ -1,0 +1,246 @@
+# ==============================================================================
+# XVSS-X Target Languages Specification (28 Languages, 12 Language Families)
+# Reference: CVSS-X Short Paper Table 2
+# ==============================================================================
+
+families:
+  Romance:
+    - pt
+    - es
+    - fr
+    - it
+    - ro
+    - ca
+  Germanic:
+    - de
+    - nl
+    - sv
+    - da
+    - "no"
+  Slavic:
+    - ru
+    - pl
+    - cs
+    - uk
+  CJK:
+    - zh
+    - ja
+    - ko
+  Uralic:
+    - fi
+    - hu
+  Indo-Iranian:
+    - hi
+    - fa
+  Other:
+    - el
+    - he
+    - tr
+    - th
+    - id
+    - vi
+
+languages:
+  pt:
+    name: "Portuguese"
+    family: "Romance"
+    nllb_code: "por_Latn"
+    whisper_code: "portuguese"
+    omnivoice_name: "Portuguese"
+    unsegmented: false
+  es:
+    name: "Spanish"
+    family: "Romance"
+    nllb_code: "spa_Latn"
+    whisper_code: "spanish"
+    omnivoice_name: "Spanish"
+    unsegmented: false
+  fr:
+    name: "French"
+    family: "Romance"
+    nllb_code: "fra_Latn"
+    whisper_code: "french"
+    omnivoice_name: "French"
+    unsegmented: false
+  it:
+    name: "Italian"
+    family: "Romance"
+    nllb_code: "ita_Latn"
+    whisper_code: "italian"
+    omnivoice_name: "Italian"
+    unsegmented: false
+  ro:
+    name: "Romanian"
+    family: "Romance"
+    nllb_code: "ron_Latn"
+    whisper_code: "romanian"
+    omnivoice_name: "Romanian"
+    unsegmented: false
+  ca:
+    name: "Catalan"
+    family: "Romance"
+    nllb_code: "cat_Latn"
+    whisper_code: "catalan"
+    omnivoice_name: "Catalan"
+    unsegmented: false
+
+  de:
+    name: "German"
+    family: "Germanic"
+    nllb_code: "deu_Latn"
+    whisper_code: "german"
+    omnivoice_name: "German"
+    unsegmented: false
+  nl:
+    name: "Dutch"
+    family: "Germanic"
+    nllb_code: "nld_Latn"
+    whisper_code: "dutch"
+    omnivoice_name: "Dutch"
+    unsegmented: false
+  sv:
+    name: "Swedish"
+    family: "Germanic"
+    nllb_code: "swe_Latn"
+    whisper_code: "swedish"
+    omnivoice_name: "Swedish"
+    unsegmented: false
+  da:
+    name: "Danish"
+    family: "Germanic"
+    nllb_code: "dan_Latn"
+    whisper_code: "danish"
+    omnivoice_name: "Danish"
+    unsegmented: false
+  "no":
+    name: "Norwegian"
+    family: "Germanic"
+    nllb_code: "nob_Latn"
+    whisper_code: "norwegian"
+    omnivoice_name: "Norwegian"
+    unsegmented: false
+
+  ru:
+    name: "Russian"
+    family: "Slavic"
+    nllb_code: "rus_Cyrl"
+    whisper_code: "russian"
+    omnivoice_name: "Russian"
+    unsegmented: false
+  pl:
+    name: "Polish"
+    family: "Slavic"
+    nllb_code: "pol_Latn"
+    whisper_code: "polish"
+    omnivoice_name: "Polish"
+    unsegmented: false
+  cs:
+    name: "Czech"
+    family: "Slavic"
+    nllb_code: "ces_Latn"
+    whisper_code: "czech"
+    omnivoice_name: "Czech"
+    unsegmented: false
+  uk:
+    name: "Ukrainian"
+    family: "Slavic"
+    nllb_code: "ukr_Cyrl"
+    whisper_code: "ukrainian"
+    omnivoice_name: "Ukrainian"
+    unsegmented: false
+
+  zh:
+    name: "Chinese"
+    family: "CJK"
+    nllb_code: "zho_Hans"
+    whisper_code: "chinese"
+    omnivoice_name: "Chinese"
+    unsegmented: true
+  ja:
+    name: "Japanese"
+    family: "CJK"
+    nllb_code: "jpn_Jpan"
+    whisper_code: "japanese"
+    omnivoice_name: "Japanese"
+    unsegmented: true
+  ko:
+    name: "Korean"
+    family: "CJK"
+    nllb_code: "kor_Hang"
+    whisper_code: "korean"
+    omnivoice_name: "Korean"
+    unsegmented: false
+
+  fi:
+    name: "Finnish"
+    family: "Uralic"
+    nllb_code: "fin_Latn"
+    whisper_code: "finnish"
+    omnivoice_name: "Finnish"
+    unsegmented: false
+  hu:
+    name: "Hungarian"
+    family: "Uralic"
+    nllb_code: "hun_Latn"
+    whisper_code: "hungarian"
+    omnivoice_name: "Hungarian"
+    unsegmented: false
+
+  hi:
+    name: "Hindi"
+    family: "Indo-Iranian"
+    nllb_code: "hin_Deva"
+    whisper_code: "hindi"
+    omnivoice_name: "Hindi"
+    unsegmented: false
+  fa:
+    name: "Persian"
+    family: "Indo-Iranian"
+    nllb_code: "pes_Arab"
+    whisper_code: "persian"
+    omnivoice_name: "Persian"
+    unsegmented: false
+
+  el:
+    name: "Greek"
+    family: "Other"
+    nllb_code: "ell_Grek"
+    whisper_code: "greek"
+    omnivoice_name: "Greek"
+    unsegmented: false
+  he:
+    name: "Hebrew"
+    family: "Other"
+    nllb_code: "heb_Hebr"
+    whisper_code: "hebrew"
+    omnivoice_name: "Hebrew"
+    unsegmented: false
+  tr:
+    name: "Turkish"
+    family: "Other"
+    nllb_code: "tur_Latn"
+    whisper_code: "turkish"
+    omnivoice_name: "Turkish"
+    unsegmented: false
+  th:
+    name: "Thai"
+    family: "Other"
+    nllb_code: "tha_Thai"
+    whisper_code: "thai"
+    omnivoice_name: "Thai"
+    unsegmented: true
+  id:
+    name: "Indonesian"
+    family: "Other"
+    nllb_code: "ind_Latn"
+    whisper_code: "indonesian"
+    omnivoice_name: "Indonesian"
+    unsegmented: false
+  vi:
+    name: "Vietnamese"
+    family: "Other"
+    nllb_code: "vie_Latn"
+    whisper_code: "vietnamese"
+    omnivoice_name: "Vietnamese"
+    unsegmented: false
+
