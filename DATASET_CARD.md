@@ -1,3 +1,274 @@
+---
+configs:
+  - config_name: en-pt
+    data_files:
+      - split: train
+        path: data/en-pt/train/*/*.tar
+      - split: dev
+        path: data/en-pt/dev/*/*.tar
+      - split: test
+        path: data/en-pt/test/*/*.tar
+  - config_name: en-es
+    data_files:
+      - split: train
+        path: data/en-es/train/*/*.tar
+      - split: dev
+        path: data/en-es/dev/*/*.tar
+      - split: test
+        path: data/en-es/test/*/*.tar
+  - config_name: en-fr
+    data_files:
+      - split: train
+        path: data/en-fr/train/*/*.tar
+      - split: dev
+        path: data/en-fr/dev/*/*.tar
+      - split: test
+        path: data/en-fr/test/*/*.tar
+  - config_name: en-it
+    data_files:
+      - split: train
+        path: data/en-it/train/*/*.tar
+      - split: dev
+        path: data/en-it/dev/*/*.tar
+      - split: test
+        path: data/en-it/test/*/*.tar
+  - config_name: en-ro
+    data_files:
+      - split: train
+        path: data/en-ro/train/*/*.tar
+      - split: dev
+        path: data/en-ro/dev/*/*.tar
+      - split: test
+        path: data/en-ro/test/*/*.tar
+  - config_name: en-ca
+    data_files:
+      - split: train
+        path: data/en-ca/train/*/*.tar
+      - split: dev
+        path: data/en-ca/dev/*/*.tar
+      - split: test
+        path: data/en-ca/test/*/*.tar
+  - config_name: en-de
+    data_files:
+      - split: train
+        path: data/en-de/train/*/*.tar
+      - split: dev
+        path: data/en-de/dev/*/*.tar
+      - split: test
+        path: data/en-de/test/*/*.tar
+  - config_name: en-nl
+    data_files:
+      - split: train
+        path: data/en-nl/train/*/*.tar
+      - split: dev
+        path: data/en-nl/dev/*/*.tar
+      - split: test
+        path: data/en-nl/test/*/*.tar
+  - config_name: en-sv
+    data_files:
+      - split: train
+        path: data/en-sv/train/*/*.tar
+      - split: dev
+        path: data/en-sv/dev/*/*.tar
+      - split: test
+        path: data/en-sv/test/*/*.tar
+  - config_name: en-da
+    data_files:
+      - split: train
+        path: data/en-da/train/*/*.tar
+      - split: dev
+        path: data/en-da/dev/*/*.tar
+      - split: test
+        path: data/en-da/test/*/*.tar
+  - config_name: en-no
+    data_files:
+      - split: train
+        path: data/en-no/train/*/*.tar
+      - split: dev
+        path: data/en-no/dev/*/*.tar
+      - split: test
+        path: data/en-no/test/*/*.tar
+  - config_name: en-ru
+    data_files:
+      - split: train
+        path: data/en-ru/train/*/*.tar
+      - split: dev
+        path: data/en-ru/dev/*/*.tar
+      - split: test
+        path: data/en-ru/test/*/*.tar
+  - config_name: en-pl
+    data_files:
+      - split: train
+        path: data/en-pl/train/*/*.tar
+      - split: dev
+        path: data/en-pl/dev/*/*.tar
+      - split: test
+        path: data/en-pl/test/*/*.tar
+  - config_name: en-cs
+    data_files:
+      - split: train
+        path: data/en-cs/train/*/*.tar
+      - split: dev
+        path: data/en-cs/dev/*/*.tar
+      - split: test
+        path: data/en-cs/test/*/*.tar
+  - config_name: en-uk
+    data_files:
+      - split: train
+        path: data/en-uk/train/*/*.tar
+      - split: dev
+        path: data/en-uk/dev/*/*.tar
+      - split: test
+        path: data/en-uk/test/*/*.tar
+  - config_name: en-zh
+    data_files:
+      - split: train
+        path: data/en-zh/train/*/*.tar
+      - split: dev
+        path: data/en-zh/dev/*/*.tar
+      - split: test
+        path: data/en-zh/test/*/*.tar
+  - config_name: en-ja
+    data_files:
+      - split: train
+        path: data/en-ja/train/*/*.tar
+      - split: dev
+        path: data/en-ja/dev/*/*.tar
+      - split: test
+        path: data/en-ja/test/*/*.tar
+  - config_name: en-ko
+    data_files:
+      - split: train
+        path: data/en-ko/train/*/*.tar
+      - split: dev
+        path: data/en-ko/dev/*/*.tar
+      - split: test
+        path: data/en-ko/test/*/*.tar
+  - config_name: en-fi
+    data_files:
+      - split: train
+        path: data/en-fi/train/*/*.tar
+      - split: dev
+        path: data/en-fi/dev/*/*.tar
+      - split: test
+        path: data/en-fi/test/*/*.tar
+  - config_name: en-hu
+    data_files:
+      - split: train
+        path: data/en-hu/train/*/*.tar
+      - split: dev
+        path: data/en-hu/dev/*/*.tar
+      - split: test
+        path: data/en-hu/test/*/*.tar
+  - config_name: en-hi
+    data_files:
+      - split: train
+        path: data/en-hi/train/*/*.tar
+      - split: dev
+        path: data/en-hi/dev/*/*.tar
+      - split: test
+        path: data/en-hi/test/*/*.tar
+  - config_name: en-fa
+    data_files:
+      - split: train
+        path: data/en-fa/train/*/*.tar
+      - split: dev
+        path: data/en-fa/dev/*/*.tar
+      - split: test
+        path: data/en-fa/test/*/*.tar
+  - config_name: en-el
+    data_files:
+      - split: train
+        path: data/en-el/train/*/*.tar
+      - split: dev
+        path: data/en-el/dev/*/*.tar
+      - split: test
+        path: data/en-el/test/*/*.tar
+  - config_name: en-he
+    data_files:
+      - split: train
+        path: data/en-he/train/*/*.tar
+      - split: dev
+        path: data/en-he/dev/*/*.tar
+      - split: test
+        path: data/en-he/test/*/*.tar
+  - config_name: en-tr
+    data_files:
+      - split: train
+        path: data/en-tr/train/*/*.tar
+      - split: dev
+        path: data/en-tr/dev/*/*.tar
+      - split: test
+        path: data/en-tr/test/*/*.tar
+  - config_name: en-th
+    data_files:
+      - split: train
+        path: data/en-th/train/*/*.tar
+      - split: dev
+        path: data/en-th/dev/*/*.tar
+      - split: test
+        path: data/en-th/test/*/*.tar
+  - config_name: en-id
+    data_files:
+      - split: train
+        path: data/en-id/train/*/*.tar
+      - split: dev
+        path: data/en-id/dev/*/*.tar
+      - split: test
+        path: data/en-id/test/*/*.tar
+  - config_name: en-vi
+    data_files:
+      - split: train
+        path: data/en-vi/train/*/*.tar
+      - split: dev
+        path: data/en-vi/dev/*/*.tar
+      - split: test
+        path: data/en-vi/test/*/*.tar
+task_categories:
+  - audio-to-audio
+  - text-to-speech
+  - translation
+language:
+  - en
+  - ca
+  - cs
+  - da
+  - de
+  - el
+  - es
+  - fa
+  - fi
+  - fr
+  - he
+  - hi
+  - hu
+  - id
+  - it
+  - ja
+  - ko
+  - nl
+  - no
+  - pl
+  - pt
+  - ro
+  - ru
+  - sv
+  - th
+  - tr
+  - uk
+  - vi
+  - zh
+license: cc-by-nc-4.0
+tags:
+  - arxiv:2609.13413
+  - speech-to-speech-translation
+  - speech-translation
+  - common-voice
+  - cross-lingual-tts
+  - voice-cloning
+size_categories:
+  - 10M<n<100M
+---
 # XVSS-X: A Multilingual Speech-to-Speech Translation Corpus for 28 Languages
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
