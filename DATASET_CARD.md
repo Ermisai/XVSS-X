@@ -8,6 +8,22 @@ configs:
         path: data/en-pt/dev/*/*.tar
       - split: test
         path: data/en-pt/test/*/*.tar
+  - config_name: en-pt-canonical
+    data_files:
+      - split: train
+        path: data/en-pt/train/canonical/*.tar
+      - split: dev
+        path: data/en-pt/dev/canonical/*.tar
+      - split: test
+        path: data/en-pt/test/canonical/*.tar
+  - config_name: en-pt-timbre
+    data_files:
+      - split: train
+        path: data/en-pt/train/timbre/*.tar
+      - split: dev
+        path: data/en-pt/dev/timbre/*.tar
+      - split: test
+        path: data/en-pt/test/timbre/*.tar
   - config_name: en-es
     data_files:
       - split: train
@@ -16,6 +32,22 @@ configs:
         path: data/en-es/dev/*/*.tar
       - split: test
         path: data/en-es/test/*/*.tar
+  - config_name: en-es-canonical
+    data_files:
+      - split: train
+        path: data/en-es/train/canonical/*.tar
+      - split: dev
+        path: data/en-es/dev/canonical/*.tar
+      - split: test
+        path: data/en-es/test/canonical/*.tar
+  - config_name: en-es-timbre
+    data_files:
+      - split: train
+        path: data/en-es/train/timbre/*.tar
+      - split: dev
+        path: data/en-es/dev/timbre/*.tar
+      - split: test
+        path: data/en-es/test/timbre/*.tar
   - config_name: en-fr
     data_files:
       - split: train
@@ -24,6 +56,22 @@ configs:
         path: data/en-fr/dev/*/*.tar
       - split: test
         path: data/en-fr/test/*/*.tar
+  - config_name: en-fr-canonical
+    data_files:
+      - split: train
+        path: data/en-fr/train/canonical/*.tar
+      - split: dev
+        path: data/en-fr/dev/canonical/*.tar
+      - split: test
+        path: data/en-fr/test/canonical/*.tar
+  - config_name: en-fr-timbre
+    data_files:
+      - split: train
+        path: data/en-fr/train/timbre/*.tar
+      - split: dev
+        path: data/en-fr/dev/timbre/*.tar
+      - split: test
+        path: data/en-fr/test/timbre/*.tar
   - config_name: en-it
     data_files:
       - split: train
@@ -32,6 +80,22 @@ configs:
         path: data/en-it/dev/*/*.tar
       - split: test
         path: data/en-it/test/*/*.tar
+  - config_name: en-it-canonical
+    data_files:
+      - split: train
+        path: data/en-it/train/canonical/*.tar
+      - split: dev
+        path: data/en-it/dev/canonical/*.tar
+      - split: test
+        path: data/en-it/test/canonical/*.tar
+  - config_name: en-it-timbre
+    data_files:
+      - split: train
+        path: data/en-it/train/timbre/*.tar
+      - split: dev
+        path: data/en-it/dev/timbre/*.tar
+      - split: test
+        path: data/en-it/test/timbre/*.tar
   - config_name: en-ro
     data_files:
       - split: train
@@ -40,6 +104,22 @@ configs:
         path: data/en-ro/dev/*/*.tar
       - split: test
         path: data/en-ro/test/*/*.tar
+  - config_name: en-ro-canonical
+    data_files:
+      - split: train
+        path: data/en-ro/train/canonical/*.tar
+      - split: dev
+        path: data/en-ro/dev/canonical/*.tar
+      - split: test
+        path: data/en-ro/test/canonical/*.tar
+  - config_name: en-ro-timbre
+    data_files:
+      - split: train
+        path: data/en-ro/train/timbre/*.tar
+      - split: dev
+        path: data/en-ro/dev/timbre/*.tar
+      - split: test
+        path: data/en-ro/test/timbre/*.tar
   - config_name: en-ca
     data_files:
       - split: train
@@ -48,6 +128,22 @@ configs:
         path: data/en-ca/dev/*/*.tar
       - split: test
         path: data/en-ca/test/*/*.tar
+  - config_name: en-ca-canonical
+    data_files:
+      - split: train
+        path: data/en-ca/train/canonical/*.tar
+      - split: dev
+        path: data/en-ca/dev/canonical/*.tar
+      - split: test
+        path: data/en-ca/test/canonical/*.tar
+  - config_name: en-ca-timbre
+    data_files:
+      - split: train
+        path: data/en-ca/train/timbre/*.tar
+      - split: dev
+        path: data/en-ca/dev/timbre/*.tar
+      - split: test
+        path: data/en-ca/test/timbre/*.tar
   - config_name: en-de
     data_files:
       - split: train
@@ -56,6 +152,22 @@ configs:
         path: data/en-de/dev/*/*.tar
       - split: test
         path: data/en-de/test/*/*.tar
+  - config_name: en-de-canonical
+    data_files:
+      - split: train
+        path: data/en-de/train/canonical/*.tar
+      - split: dev
+        path: data/en-de/dev/canonical/*.tar
+      - split: test
+        path: data/en-de/test/canonical/*.tar
+  - config_name: en-de-timbre
+    data_files:
+      - split: train
+        path: data/en-de/train/timbre/*.tar
+      - split: dev
+        path: data/en-de/dev/timbre/*.tar
+      - split: test
+        path: data/en-de/test/timbre/*.tar
   - config_name: en-nl
     data_files:
       - split: train
@@ -64,6 +176,22 @@ configs:
         path: data/en-nl/dev/*/*.tar
       - split: test
         path: data/en-nl/test/*/*.tar
+  - config_name: en-nl-canonical
+    data_files:
+      - split: train
+        path: data/en-nl/train/canonical/*.tar
+      - split: dev
+        path: data/en-nl/dev/canonical/*.tar
+      - split: test
+        path: data/en-nl/test/canonical/*.tar
+  - config_name: en-nl-timbre
+    data_files:
+      - split: train
+        path: data/en-nl/train/timbre/*.tar
+      - split: dev
+        path: data/en-nl/dev/timbre/*.tar
+      - split: test
+        path: data/en-nl/test/timbre/*.tar
   - config_name: en-sv
     data_files:
       - split: train
@@ -72,6 +200,22 @@ configs:
         path: data/en-sv/dev/*/*.tar
       - split: test
         path: data/en-sv/test/*/*.tar
+  - config_name: en-sv-canonical
+    data_files:
+      - split: train
+        path: data/en-sv/train/canonical/*.tar
+      - split: dev
+        path: data/en-sv/dev/canonical/*.tar
+      - split: test
+        path: data/en-sv/test/canonical/*.tar
+  - config_name: en-sv-timbre
+    data_files:
+      - split: train
+        path: data/en-sv/train/timbre/*.tar
+      - split: dev
+        path: data/en-sv/dev/timbre/*.tar
+      - split: test
+        path: data/en-sv/test/timbre/*.tar
   - config_name: en-da
     data_files:
       - split: train
@@ -80,6 +224,22 @@ configs:
         path: data/en-da/dev/*/*.tar
       - split: test
         path: data/en-da/test/*/*.tar
+  - config_name: en-da-canonical
+    data_files:
+      - split: train
+        path: data/en-da/train/canonical/*.tar
+      - split: dev
+        path: data/en-da/dev/canonical/*.tar
+      - split: test
+        path: data/en-da/test/canonical/*.tar
+  - config_name: en-da-timbre
+    data_files:
+      - split: train
+        path: data/en-da/train/timbre/*.tar
+      - split: dev
+        path: data/en-da/dev/timbre/*.tar
+      - split: test
+        path: data/en-da/test/timbre/*.tar
   - config_name: en-no
     data_files:
       - split: train
@@ -88,6 +248,22 @@ configs:
         path: data/en-no/dev/*/*.tar
       - split: test
         path: data/en-no/test/*/*.tar
+  - config_name: en-no-canonical
+    data_files:
+      - split: train
+        path: data/en-no/train/canonical/*.tar
+      - split: dev
+        path: data/en-no/dev/canonical/*.tar
+      - split: test
+        path: data/en-no/test/canonical/*.tar
+  - config_name: en-no-timbre
+    data_files:
+      - split: train
+        path: data/en-no/train/timbre/*.tar
+      - split: dev
+        path: data/en-no/dev/timbre/*.tar
+      - split: test
+        path: data/en-no/test/timbre/*.tar
   - config_name: en-ru
     data_files:
       - split: train
@@ -96,6 +272,22 @@ configs:
         path: data/en-ru/dev/*/*.tar
       - split: test
         path: data/en-ru/test/*/*.tar
+  - config_name: en-ru-canonical
+    data_files:
+      - split: train
+        path: data/en-ru/train/canonical/*.tar
+      - split: dev
+        path: data/en-ru/dev/canonical/*.tar
+      - split: test
+        path: data/en-ru/test/canonical/*.tar
+  - config_name: en-ru-timbre
+    data_files:
+      - split: train
+        path: data/en-ru/train/timbre/*.tar
+      - split: dev
+        path: data/en-ru/dev/timbre/*.tar
+      - split: test
+        path: data/en-ru/test/timbre/*.tar
   - config_name: en-pl
     data_files:
       - split: train
@@ -104,6 +296,22 @@ configs:
         path: data/en-pl/dev/*/*.tar
       - split: test
         path: data/en-pl/test/*/*.tar
+  - config_name: en-pl-canonical
+    data_files:
+      - split: train
+        path: data/en-pl/train/canonical/*.tar
+      - split: dev
+        path: data/en-pl/dev/canonical/*.tar
+      - split: test
+        path: data/en-pl/test/canonical/*.tar
+  - config_name: en-pl-timbre
+    data_files:
+      - split: train
+        path: data/en-pl/train/timbre/*.tar
+      - split: dev
+        path: data/en-pl/dev/timbre/*.tar
+      - split: test
+        path: data/en-pl/test/timbre/*.tar
   - config_name: en-cs
     data_files:
       - split: train
@@ -112,6 +320,22 @@ configs:
         path: data/en-cs/dev/*/*.tar
       - split: test
         path: data/en-cs/test/*/*.tar
+  - config_name: en-cs-canonical
+    data_files:
+      - split: train
+        path: data/en-cs/train/canonical/*.tar
+      - split: dev
+        path: data/en-cs/dev/canonical/*.tar
+      - split: test
+        path: data/en-cs/test/canonical/*.tar
+  - config_name: en-cs-timbre
+    data_files:
+      - split: train
+        path: data/en-cs/train/timbre/*.tar
+      - split: dev
+        path: data/en-cs/dev/timbre/*.tar
+      - split: test
+        path: data/en-cs/test/timbre/*.tar
   - config_name: en-uk
     data_files:
       - split: train
@@ -120,6 +344,22 @@ configs:
         path: data/en-uk/dev/*/*.tar
       - split: test
         path: data/en-uk/test/*/*.tar
+  - config_name: en-uk-canonical
+    data_files:
+      - split: train
+        path: data/en-uk/train/canonical/*.tar
+      - split: dev
+        path: data/en-uk/dev/canonical/*.tar
+      - split: test
+        path: data/en-uk/test/canonical/*.tar
+  - config_name: en-uk-timbre
+    data_files:
+      - split: train
+        path: data/en-uk/train/timbre/*.tar
+      - split: dev
+        path: data/en-uk/dev/timbre/*.tar
+      - split: test
+        path: data/en-uk/test/timbre/*.tar
   - config_name: en-zh
     data_files:
       - split: train
@@ -128,6 +368,22 @@ configs:
         path: data/en-zh/dev/*/*.tar
       - split: test
         path: data/en-zh/test/*/*.tar
+  - config_name: en-zh-canonical
+    data_files:
+      - split: train
+        path: data/en-zh/train/canonical/*.tar
+      - split: dev
+        path: data/en-zh/dev/canonical/*.tar
+      - split: test
+        path: data/en-zh/test/canonical/*.tar
+  - config_name: en-zh-timbre
+    data_files:
+      - split: train
+        path: data/en-zh/train/timbre/*.tar
+      - split: dev
+        path: data/en-zh/dev/timbre/*.tar
+      - split: test
+        path: data/en-zh/test/timbre/*.tar
   - config_name: en-ja
     data_files:
       - split: train
@@ -136,6 +392,22 @@ configs:
         path: data/en-ja/dev/*/*.tar
       - split: test
         path: data/en-ja/test/*/*.tar
+  - config_name: en-ja-canonical
+    data_files:
+      - split: train
+        path: data/en-ja/train/canonical/*.tar
+      - split: dev
+        path: data/en-ja/dev/canonical/*.tar
+      - split: test
+        path: data/en-ja/test/canonical/*.tar
+  - config_name: en-ja-timbre
+    data_files:
+      - split: train
+        path: data/en-ja/train/timbre/*.tar
+      - split: dev
+        path: data/en-ja/dev/timbre/*.tar
+      - split: test
+        path: data/en-ja/test/timbre/*.tar
   - config_name: en-ko
     data_files:
       - split: train
@@ -144,6 +416,22 @@ configs:
         path: data/en-ko/dev/*/*.tar
       - split: test
         path: data/en-ko/test/*/*.tar
+  - config_name: en-ko-canonical
+    data_files:
+      - split: train
+        path: data/en-ko/train/canonical/*.tar
+      - split: dev
+        path: data/en-ko/dev/canonical/*.tar
+      - split: test
+        path: data/en-ko/test/canonical/*.tar
+  - config_name: en-ko-timbre
+    data_files:
+      - split: train
+        path: data/en-ko/train/timbre/*.tar
+      - split: dev
+        path: data/en-ko/dev/timbre/*.tar
+      - split: test
+        path: data/en-ko/test/timbre/*.tar
   - config_name: en-fi
     data_files:
       - split: train
@@ -152,6 +440,22 @@ configs:
         path: data/en-fi/dev/*/*.tar
       - split: test
         path: data/en-fi/test/*/*.tar
+  - config_name: en-fi-canonical
+    data_files:
+      - split: train
+        path: data/en-fi/train/canonical/*.tar
+      - split: dev
+        path: data/en-fi/dev/canonical/*.tar
+      - split: test
+        path: data/en-fi/test/canonical/*.tar
+  - config_name: en-fi-timbre
+    data_files:
+      - split: train
+        path: data/en-fi/train/timbre/*.tar
+      - split: dev
+        path: data/en-fi/dev/timbre/*.tar
+      - split: test
+        path: data/en-fi/test/timbre/*.tar
   - config_name: en-hu
     data_files:
       - split: train
@@ -160,6 +464,22 @@ configs:
         path: data/en-hu/dev/*/*.tar
       - split: test
         path: data/en-hu/test/*/*.tar
+  - config_name: en-hu-canonical
+    data_files:
+      - split: train
+        path: data/en-hu/train/canonical/*.tar
+      - split: dev
+        path: data/en-hu/dev/canonical/*.tar
+      - split: test
+        path: data/en-hu/test/canonical/*.tar
+  - config_name: en-hu-timbre
+    data_files:
+      - split: train
+        path: data/en-hu/train/timbre/*.tar
+      - split: dev
+        path: data/en-hu/dev/timbre/*.tar
+      - split: test
+        path: data/en-hu/test/timbre/*.tar
   - config_name: en-hi
     data_files:
       - split: train
@@ -168,6 +488,22 @@ configs:
         path: data/en-hi/dev/*/*.tar
       - split: test
         path: data/en-hi/test/*/*.tar
+  - config_name: en-hi-canonical
+    data_files:
+      - split: train
+        path: data/en-hi/train/canonical/*.tar
+      - split: dev
+        path: data/en-hi/dev/canonical/*.tar
+      - split: test
+        path: data/en-hi/test/canonical/*.tar
+  - config_name: en-hi-timbre
+    data_files:
+      - split: train
+        path: data/en-hi/train/timbre/*.tar
+      - split: dev
+        path: data/en-hi/dev/timbre/*.tar
+      - split: test
+        path: data/en-hi/test/timbre/*.tar
   - config_name: en-fa
     data_files:
       - split: train
@@ -176,6 +512,22 @@ configs:
         path: data/en-fa/dev/*/*.tar
       - split: test
         path: data/en-fa/test/*/*.tar
+  - config_name: en-fa-canonical
+    data_files:
+      - split: train
+        path: data/en-fa/train/canonical/*.tar
+      - split: dev
+        path: data/en-fa/dev/canonical/*.tar
+      - split: test
+        path: data/en-fa/test/canonical/*.tar
+  - config_name: en-fa-timbre
+    data_files:
+      - split: train
+        path: data/en-fa/train/timbre/*.tar
+      - split: dev
+        path: data/en-fa/dev/timbre/*.tar
+      - split: test
+        path: data/en-fa/test/timbre/*.tar
   - config_name: en-el
     data_files:
       - split: train
@@ -184,6 +536,22 @@ configs:
         path: data/en-el/dev/*/*.tar
       - split: test
         path: data/en-el/test/*/*.tar
+  - config_name: en-el-canonical
+    data_files:
+      - split: train
+        path: data/en-el/train/canonical/*.tar
+      - split: dev
+        path: data/en-el/dev/canonical/*.tar
+      - split: test
+        path: data/en-el/test/canonical/*.tar
+  - config_name: en-el-timbre
+    data_files:
+      - split: train
+        path: data/en-el/train/timbre/*.tar
+      - split: dev
+        path: data/en-el/dev/timbre/*.tar
+      - split: test
+        path: data/en-el/test/timbre/*.tar
   - config_name: en-he
     data_files:
       - split: train
@@ -192,6 +560,22 @@ configs:
         path: data/en-he/dev/*/*.tar
       - split: test
         path: data/en-he/test/*/*.tar
+  - config_name: en-he-canonical
+    data_files:
+      - split: train
+        path: data/en-he/train/canonical/*.tar
+      - split: dev
+        path: data/en-he/dev/canonical/*.tar
+      - split: test
+        path: data/en-he/test/canonical/*.tar
+  - config_name: en-he-timbre
+    data_files:
+      - split: train
+        path: data/en-he/train/timbre/*.tar
+      - split: dev
+        path: data/en-he/dev/timbre/*.tar
+      - split: test
+        path: data/en-he/test/timbre/*.tar
   - config_name: en-tr
     data_files:
       - split: train
@@ -200,6 +584,22 @@ configs:
         path: data/en-tr/dev/*/*.tar
       - split: test
         path: data/en-tr/test/*/*.tar
+  - config_name: en-tr-canonical
+    data_files:
+      - split: train
+        path: data/en-tr/train/canonical/*.tar
+      - split: dev
+        path: data/en-tr/dev/canonical/*.tar
+      - split: test
+        path: data/en-tr/test/canonical/*.tar
+  - config_name: en-tr-timbre
+    data_files:
+      - split: train
+        path: data/en-tr/train/timbre/*.tar
+      - split: dev
+        path: data/en-tr/dev/timbre/*.tar
+      - split: test
+        path: data/en-tr/test/timbre/*.tar
   - config_name: en-th
     data_files:
       - split: train
@@ -208,6 +608,22 @@ configs:
         path: data/en-th/dev/*/*.tar
       - split: test
         path: data/en-th/test/*/*.tar
+  - config_name: en-th-canonical
+    data_files:
+      - split: train
+        path: data/en-th/train/canonical/*.tar
+      - split: dev
+        path: data/en-th/dev/canonical/*.tar
+      - split: test
+        path: data/en-th/test/canonical/*.tar
+  - config_name: en-th-timbre
+    data_files:
+      - split: train
+        path: data/en-th/train/timbre/*.tar
+      - split: dev
+        path: data/en-th/dev/timbre/*.tar
+      - split: test
+        path: data/en-th/test/timbre/*.tar
   - config_name: en-id
     data_files:
       - split: train
@@ -216,6 +632,22 @@ configs:
         path: data/en-id/dev/*/*.tar
       - split: test
         path: data/en-id/test/*/*.tar
+  - config_name: en-id-canonical
+    data_files:
+      - split: train
+        path: data/en-id/train/canonical/*.tar
+      - split: dev
+        path: data/en-id/dev/canonical/*.tar
+      - split: test
+        path: data/en-id/test/canonical/*.tar
+  - config_name: en-id-timbre
+    data_files:
+      - split: train
+        path: data/en-id/train/timbre/*.tar
+      - split: dev
+        path: data/en-id/dev/timbre/*.tar
+      - split: test
+        path: data/en-id/test/timbre/*.tar
   - config_name: en-vi
     data_files:
       - split: train
@@ -224,40 +656,56 @@ configs:
         path: data/en-vi/dev/*/*.tar
       - split: test
         path: data/en-vi/test/*/*.tar
+  - config_name: en-vi-canonical
+    data_files:
+      - split: train
+        path: data/en-vi/train/canonical/*.tar
+      - split: dev
+        path: data/en-vi/dev/canonical/*.tar
+      - split: test
+        path: data/en-vi/test/canonical/*.tar
+  - config_name: en-vi-timbre
+    data_files:
+      - split: train
+        path: data/en-vi/train/timbre/*.tar
+      - split: dev
+        path: data/en-vi/dev/timbre/*.tar
+      - split: test
+        path: data/en-vi/test/timbre/*.tar
 task_categories:
   - audio-to-audio
   - text-to-speech
   - translation
 language:
   - en
-  - ca
-  - cs
-  - da
-  - de
-  - el
+  - pt
   - es
-  - fa
-  - fi
   - fr
-  - he
-  - hi
-  - hu
-  - id
   - it
+  - ro
+  - ca
+  - de
+  - nl
+  - sv
+  - da
+  - no
+  - ru
+  - pl
+  - cs
+  - uk
+  - zh
   - ja
   - ko
-  - nl
-  - no
-  - pl
-  - pt
-  - ro
-  - ru
-  - sv
-  - th
+  - fi
+  - hu
+  - hi
+  - fa
+  - el
+  - he
   - tr
-  - uk
+  - th
+  - id
   - vi
-  - zh
 license: cc-by-nc-4.0
 tags:
   - arxiv:2609.13413
@@ -269,6 +717,7 @@ tags:
 size_categories:
   - 10M<n<100M
 ---
+
 # XVSS-X: A Multilingual Speech-to-Speech Translation Corpus for 28 Languages
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
