@@ -41,3 +41,7 @@ ENV/
 .idea/
 .vscode/
 
+# Internal maintenance scripts
+scripts/upload_to_huggingface.py
+
+
